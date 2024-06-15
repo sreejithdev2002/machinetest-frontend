@@ -1,0 +1,75 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.qualificationForm{
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 20px 0px;
+    
+}
+
+.userDetails{
+    display: flex;
+    padding: 5px 10px;
+}
+
+.input{
+    margin: 0px 10px;
+}
+
+ input{
+    padding: 5px;
+    margin: 0px 10px;
+}
+
+.qualificationDropdown{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 20px;
+    align-items: center;
+}
+
+#addBtn{
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+#addBtn:hover{
+    background-color: rgb(3, 94, 3);
+}
+
+#deleteBtn{
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+#deleteBtn:hover{
+    background-color: rgb(200, 6, 6);
+}
+
+#submitBtn{
+    background-color: #007ad2;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+#submitBtn:hover{
+    background-color:#0267b0 ;
+}
